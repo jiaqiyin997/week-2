@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fiddle Digital Scroll Animation</title>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css" />
+    <style>
+      
+
+      .typing {
+        position: relative;
+        z-index: 100000;
+        font-family: 'Pacifico', cursive;
+        color: aliceblue;
+        margin: 0 auto;
+        /* width: 20ch; 最终宽度为20个字符 */
+        white-space: nowrap; /* 禁用换行 */
+        overflow: hidden; /* 超出部分隐藏 */
+        animation: typing 4s steps(40) infinite alternate-reverse;
+      }
+
+      @keyframes typing {
+        from {
+          width: 0ch; /* 从宽度0开始 */
+        }
+        to {
+          width: 100%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <canvas id="bg-canvas"></canvas>
+    <section class="intro">
+      <h1 class="typing">Welcome to my workbook</h1>
+      <p>( Explore Below )</p>
+    </section>
+    <section class="work">
+      <div class="row">
+        <div class="col">
+          <div class="img" data-origin="right">
+            <a href="week1.html">
+              <img src="./images/img1.jpg" alt="" />
+            </a>
+          </div>
+        </div>
+        <div class="col"></div>
+        <div class="col">
+          <div class="img" data-origin="left">
+            <a href="week1 copy.html">
+              <img src="./images/img2.jpg" alt="" />
+            </a>
+          </div>
+        </div>
+        <div class="col"></div>
+      </div>
+      <div class="row">
+        <div class="col"></div>
+        <div class="col">
+          <div class="img" data-origin="left">
+            <img src="./images/img3.jpg" alt="" />
+          </div>
+        </div>
+        <div class="col"></div>
+        <div class="col"></div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div class="img" data-origin="right">
+            <img src="./images/img4.jpg" alt="" />
+          </div>
+        </div>
+        <div class="col"></div>
+        <div class="col"></div>
+        <div class="col">
+          <div class="img" data-origin="left">
+            <img src="./images/img5.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col"></div>
+        <div class="col">
+          <div class="img" data-origin="left">
+            <img src="./images/img6.jpg" alt="" />
+          </div>
+        </div>
+        <div class="col">
+          <div class="img" data-origin="right">
+            <img src="./images/img7.jpg" alt="" />
+          </div>
+        </div>
+        <div class="col"></div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div class="img" data-origin="left">
+            <img src="./images/img8.jpg" alt="" />
+          </div>
+        </div>
+        <div class="col"></div>
+        <div class="col"></div>
+        <div class="col">
+          <div class="img" data-origin="right">
+            <img src="./images/img9.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col"></div>
+        <div class="col"></div>
+        <div class="col">
+          <div class="img" data-origin="left">
+            <img src="./images/img10.jpg" alt="" />
+          </div>
+        </div>
+        <div class="col"></div>
+      </div>
+      <div class="row">
+        <div class="col"></div>
+        <div class="col">
+          <div class="img" data-origin="left">
+            <img src="./images/img11.jpg" alt="" />
+          </div>
+        </div>
+        <div class="col"></div>
+        <div class="col">
+          <div class="img" data-origin="left">
+            <img src="./images/img12.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div class="img" data-origin="right">
+            <img src="./images/img13.jpg" alt="" />
+          </div>
+        </div>
+        <div class="col"></div>
+        <div class="col">
+          <div class="img" data-origin="left">
+            <img src="./images/img14.jpg" alt="" />
+          </div>
+        </div>
+        <div class="col"></div>
+      </div>
+      <div class="row">
+        <div class="col"></div>
+        <div class="col">
+          <div class="img" data-origin="left">
+            <img src="./images/img15.jpg" alt="" />
+          </div>
+        </div>
+        <div class="col"></div>
+        <div class="col"></div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div class="img" data-origin="right">
+            <img src="./images/img16.jpg" alt="" />
+          </div>
+        </div>
+        <div class="col"></div>
+        <div class="col"></div>
+        <div class="col">
+          <div class="img" data-origin="left">
+            <img src="./images/img17.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="outro">
+      <p>( Return to the Beginning )</p>
+    </section>
+    
+      
+    
+  </body>
+</html>
